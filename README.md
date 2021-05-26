@@ -2,13 +2,7 @@
 
 ## Summary
 
-Short summary on functionality and used technologies.
-
-[picture of the solution in action, if possible]
-
-## Used SharePoint Framework Version
-
-![version](https://img.shields.io/badge/version-1.11-green.svg)
+A SPFx webpart of type extension with some code samples.
 
 ## Applies to
 
@@ -17,22 +11,6 @@ Short summary on functionality and used technologies.
 
 > Get your own free development tenant by subscribing to [Microsoft 365 developer program](http://aka.ms/o365devprogram)
 
-## Prerequisites
-
-> Any special pre-requisites?
-
-## Solution
-
-Solution|Author(s)
---------|---------
-folder name | Author details (name, company, twitter alias with link)
-
-## Version history
-
-Version|Date|Comments
--------|----|--------
-1.1|March 10, 2021|Update comment
-1.0|January 29, 2021|Initial release
 
 ## Disclaimer
 
@@ -52,17 +30,19 @@ Version|Date|Comments
 
 ## Features
 
-Description of the extension that expands upon high-level summary above.
+Two commandSet (also know as the buttons on upper bar) only available on Document Library (Template=101). The first always is visible, the other only when you select a item.
 
-This extension illustrates the following concepts:
+Get properties from Document Library selecte item when click at button.
 
-- topic 1
-- topic 2
-- topic 3
+Get data from other list.
 
-> Notice that better pictures and documentation will increase the sample usage and the value you are providing for others. Thanks for your submissions advance.
+Permission checks.
 
-> Share your web part with others through Microsoft 365 Patterns and Practices program to get visibility and exposure. More details on the community, open-source projects and other activities from http://aka.ms/m365pnp.
+External REST calls.
+
+Use of FluentUI controls.
+
+Use of multilanguage ENG and ESP, the strings are located in /src/loc
 
 ## References
 
